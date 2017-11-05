@@ -1,0 +1,10 @@
+idNivel nombreNivel
+comienzoSimulacion
+Jugador se encuentra con Enemigo
+Jugador ataqueEspecial Enemigo vidaJugador vidaAliado vidaEnemigo
+Enemigo ataque Jugador vidaJugador vidaAliado vidaEnemigo
+..
+Enemigo Muere
+..
+finalSimulacion
+vidaJugador vidaAliado vidaJefe Enemigosvivos

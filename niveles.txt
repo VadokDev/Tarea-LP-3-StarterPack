@@ -1,0 +1,6 @@
+nombreNivel
+nombreJugador vidaBase ataqueBase defensaBase ataqueEspecial1 ataqueEspecial2 objeto
+nombreJefe vidaBase ataqueBase defensaBase ataqueEspecial
+vidaAliado objetoAliado
+objetoNivel
+cantEnemigos vida ataqueBase defensaBase
