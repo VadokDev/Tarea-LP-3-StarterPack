@@ -1,7 +1,7 @@
 
 * Integrantes del Grupo:
 	1. Gonzalo Fernández - 201673557-7
-	2. Abel Sierra		 - 201673565-8
+	2. Abel Sierra       - 201673565-8
 
 * Instrucciones de Compilación:
 	1. Navegar al directorio del proyecto.
