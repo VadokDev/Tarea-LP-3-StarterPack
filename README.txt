@@ -1,48 +1,22 @@
+﻿
+# Tarea 3 LP - StarterPack
 
-* Integrantes del Grupo:
-	1. Gonzalo Fernández - 201673557-7
-	2. Abel Sierra       - 201673565-8
+## Proyecto realizado para comenzar el desarrollo de la Tarea 3 del ramo Lenguajes de Programación - 2017/2
 
-* Instrucciones de Compilación:
-	1. Navegar al directorio del proyecto.
-	2. Ejecutar el comando "make" (sin las comillas).
-	3. Ejecutar el archivo Juegazo.jar
+### Contenido:
 
-* Ataques Especiales del Jugador:
+* **Clases**: Están creadas la mínima cantidad de clases necesarias para resolver el problema, estas deben ser editadas desde la carpeta **/src/Tarea3**.
 
-	+----+-----------------+----------------------+
-	| ID |     Nombre      |     Descripción      |
-	+----+-----------------+----------------------+
-	| 1. | Nombre Ataque 1 | Descripción Ataque 1 |
-	| 2. | Nombre Ataque 2 | Descripción Ataque 2 |
-	| 3. | Nombre Ataque 3 | Descripción Ataque 3 |
-	| 4. | Nombre Ataque 4 | Descripción Ataque 4 |
-	+----+-----------------+----------------------+
+* **makefile**: Archivo makefile listo para compilar con el comando **make**, los resultados de compilación se guardan en la carpeta del proyecto con el nombre Juego.jar
 
-* Ataques Especiales del Jefe:
+* **manifest.mf**: Archivo necesario para indicar la clase principal del proyecto.
 
-	+----+-----------------+----------------------+
-	| ID |     Nombre      |     Descripción      |
-	+----+-----------------+----------------------+
-	| 1. | Nombre Ataque 1 | Descripción Ataque 1 |
-	| 2. | Nombre Ataque 2 | Descripción Ataque 2 |
-	+----+-----------------+----------------------+
+### Consideraciones:
 
-* Objetos
+* En caso de querer cambiar la carpeta del código, modificar la línea **9** del makefile, (javac -sourcepath **src/** -d build/classes **src/Tarea3/\***.java)
 
-	+----+-----------------+----------------------+
-	| ID |     Nombre      |     Descripción      |
-	+----+-----------------+----------------------+
-	| 1. | Nombre Objeto 1 | Descripción Objeto 1 |
-	| 2. | Nombre Objeto 2 | Descripción Objeto 2 |
-	| 3. | Nombre Objeto 3 | Descripción Objeto 3 |
-	| 4. | Nombre Objeto 4 | Descripción Objeto 4 |
-	+----+-----------------+----------------------+
+* El makefile trae también la instrucción **clean** para limpiar el las clases compiladas del proyecto que una vez obtenido el programa .jar, ya no sirven (en otras palabras, el comando **make clean** borra la carpeta **/build**).
 
-* Acciones no Documentadas:
+* En la clase **Juego** está declarado el método **main** del programa, el cual se ejecutará al momento de ejecutar el jar.
 
-	+----+-----------------+----------------------+
-	| ID |     Nombre      |     Descripción      |
-	+----+-----------------+----------------------+
-	| 1. | Nombre Objeto 1 | Descripción Objeto 1 |
-	+----+-----------------+----------------------+
+* Por defecto, el nombre del paquete es **tarea3**, para modificarlo hay que editarlo en todos los archivos **.java** y en el **manifest.mf** (línea 2, Main-Class: **tarea3**/Juego)
