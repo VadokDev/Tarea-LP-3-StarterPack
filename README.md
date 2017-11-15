@@ -1,7 +1,7 @@
 ﻿
 # Tarea 3 LP - StarterPack
 
-### Contenido:
+## Contenido:
 
 * **Clases**: Están creadas la mínima cantidad de clases necesarias para resolver el problema, estas deben ser editadas desde la carpeta **/src/Tarea3**.
 
@@ -9,7 +9,12 @@
 
 * **manifest.mf**: Archivo necesario para indicar la clase principal del proyecto.
 
-### Consideraciones:
+## Instrucciones de Compilación y Ejecución:
+
+1. Compilar con el comando **make**.
+2. Ejecutar con el comando **java -jar Juego.jar**
+
+## Consideraciones:
 
 * En caso de querer cambiar la carpeta del código, modificar la línea **9** del makefile, (javac -sourcepath **src/** -d build/classes **src/Tarea3/\***.java)
 
