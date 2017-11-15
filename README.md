@@ -1,8 +1,6 @@
 ﻿
 # Tarea 3 LP - StarterPack
 
-## Proyecto realizado para comenzar el desarrollo de la Tarea 3 del ramo Lenguajes de Programación - 2017/2
-
 ### Contenido:
 
 * **Clases**: Están creadas la mínima cantidad de clases necesarias para resolver el problema, estas deben ser editadas desde la carpeta **/src/Tarea3**.
