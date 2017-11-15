@@ -1,11 +1,11 @@
-
+package tarea3;
 /*
 * 
-*	Clase Jefe
+*	Clase Objeto
 * 
 */
 
-public class Jefe extends Personaje implements Ataque, AtaqueEspecial {
+public class Objeto {
 	
 	/******** Metodo: Suma_Enteros ********************
 	Descripcion: suma dos enteros positivos

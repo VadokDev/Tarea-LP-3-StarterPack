@@ -1,11 +1,12 @@
 
+package tarea3;
 /*
 * 
-*	Clase Ataque
+*	Clase Aliado
 * 
 */
 
-public interface Ataque {
+public class Aliado extends Personaje {
 	
 	/******** Metodo: Suma_Enteros ********************
 	Descripcion: suma dos enteros positivos

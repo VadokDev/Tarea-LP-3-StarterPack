@@ -1,11 +1,11 @@
-
+package tarea3;
 /*
 * 
-*	Clase AtaqueEspecial
+*	Clase Jugador
 * 
 */
 
-public interface AtaqueEspecial {
+public class Jugador extends Personaje implements Ataque, AtaqueEspecial {
 	
 	/******** Metodo: Suma_Enteros ********************
 	Descripcion: suma dos enteros positivos

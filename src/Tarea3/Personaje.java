@@ -1,11 +1,12 @@
+package tarea3;
 
 /*
 * 
-*	Clase Enemigo
+*	Clase Personaje
 * 
 */
 
-public class Enemigo extends Personaje implements Ataque {
+public abstract class Personaje {
 	
 	/******** Metodo: Suma_Enteros ********************
 	Descripcion: suma dos enteros positivos
@@ -14,8 +15,6 @@ public class Enemigo extends Personaje implements Ataque {
 	n2 entero
 	Retorno: resultado de la operacion aritmetica de la suma entero
 	************************************************/
-	
-
 
 }
 

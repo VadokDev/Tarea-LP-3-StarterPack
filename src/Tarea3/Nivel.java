@@ -1,12 +1,11 @@
-
-
+package tarea3;
 /*
 * 
-*	Clase Personaje
+*	Clase Nivel
 * 
 */
 
-public abstract class Personaje {
+public class Nivel {
 	
 	/******** Metodo: Suma_Enteros ********************
 	Descripcion: suma dos enteros positivos
@@ -15,6 +14,8 @@ public abstract class Personaje {
 	n2 entero
 	Retorno: resultado de la operacion aritmetica de la suma entero
 	************************************************/
+	
+
 
 }
 

@@ -1,11 +1,11 @@
-
+package tarea3;
 /*
 * 
-*	Clase Nivel
+*	Clase AtaqueEspecial
 * 
 */
 
-public class Nivel {
+public interface AtaqueEspecial {
 	
 	/******** Metodo: Suma_Enteros ********************
 	Descripcion: suma dos enteros positivos
